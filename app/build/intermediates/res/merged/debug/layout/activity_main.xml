@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/bgmenu">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Play"
+        android:id="@+id/play"
+        android:layout_weight="0.36"
+        android:layout_gravity="left"
+        android:onClick="play"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/name_of_player"
+        android:layout_alignStart="@+id/help"
+        android:textColor="#17FF17"
+        android:textSize="32sp"
+        android:background="@drawable/playbutton"
+        android:shadowColor="#4C1EA8"
+        android:shadowDx="14"
+        android:shadowDy="7"
+        android:shadowRadius="5"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="LeaderrBoard"
+        android:id="@+id/help"
+        android:layout_weight="0.36"
+        android:onClick="help"
+        android:layout_gravity="left"
+        android:background="@drawable/playbutton"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/play"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fffc4f" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="EXIT"
+        android:id="@+id/exit"
+        android:layout_weight="0.36"
+        android:layout_gravity="left"
+        android:onClick="help"
+        android:background="@drawable/playbutton"
+        android:layout_below="@+id/help"
+        android:layout_alignStart="@+id/help"
+        android:layout_marginTop="57dp"
+        android:textColor="#ff1510" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter your Name"
+        android:ems="10"
+        android:id="@+id/name_of_player"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/new/AndroidStudioProjects/Try1/app/src/main/res/layout/activity_main.xml -->
