@@ -3,6 +3,7 @@ package ak.try1;
 import android.app.Activity;
 import android.app.Dialog;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -33,9 +34,11 @@ public class MainActivity extends Activity {
             setContentView(new ak.try1.GamePlay(this));
         }
     }
-    public void help(View v){
-        Intent in = new Intent(MainActivity.this,leaderboard.class);
-        startActivity(in);
+    public void about(View v){
+        String url = "https://en.wikipedia.org/wiki/Monopoly_(game)";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
     }
     public static void exit(View v){
 

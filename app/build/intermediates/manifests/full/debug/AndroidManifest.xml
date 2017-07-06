@@ -19,17 +19,15 @@
         </activity>
         <activity
             android:name="ak.try1.Splash"
-            android:label="@string/title_activity_splash"
-            android:screenOrientation="sensorLandscape" >
+            android:label="@string/title_activity_splash" >
+
+            <!-- android:screenOrientation="sensorLandscape" -->
+ >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="ak.try1.leaderboard"
-            android:label="@string/title_activity_leaderboard" >
         </activity>
     </application>
 

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\new\AndroidStudioProjects\Try1\app\src\main\assets"/></dataSet><dataSet config="debug"><source path="C:\Users\new\AndroidStudioProjects\Try1\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/akgarhwal/AndroidStudioProjects/Monopoly-Android-Game-Project/app/src/main/assets"/></dataSet><dataSet config="debug"><source path="/home/akgarhwal/AndroidStudioProjects/Monopoly-Android-Game-Project/app/src/debug/assets"/></dataSet></merger>

@@ -3,4 +3,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" android:showAsAction="never" />
 </menu>
-<!-- From: file:/C:/Users/new/AndroidStudioProjects/Try1/app/src/main/res/menu/menu_main.xml -->
+<!-- From: file:/home/akgarhwal/AndroidStudioProjects/Monopoly-Android-Game-Project/app/src/main/res/menu/menu_main.xml -->

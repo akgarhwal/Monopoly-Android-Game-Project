@@ -19,4 +19,4 @@
         android:text="End game"
         android:id="@+id/nameButton"
         android:layout_gravity="center_horizontal" />
-</LinearLayout><!-- From: file:/C:/Users/new/AndroidStudioProjects/Try1/app/src/main/res/layout/nameinput.xml -->
+</LinearLayout><!-- From: file:/home/akgarhwal/AndroidStudioProjects/Monopoly-Android-Game-Project/app/src/main/res/layout/nameinput.xml -->

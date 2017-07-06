@@ -643,14 +643,7 @@ public class GamePlay extends SurfaceView {
         Button b = (Button) exitGame.findViewById(R.id.nameButton);
         TextView tv = (TextView)exitGame.findViewById(R.id.textView18);
         String res="";
-        if(scoreComputer>scorePlayer){
-            leaderboard.score = scoreComputer;
-            leaderboard.name = "Vision";
-        }
-        else{
-            leaderboard.score = scorePlayer;
-            leaderboard.name = MainActivity.playerName;
-        }
+
         if(money1 > money2){
             res = "You Lose the Game.";
         }
