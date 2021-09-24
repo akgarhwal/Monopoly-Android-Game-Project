@@ -8,7 +8,7 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="60dp"
-        android:text="Play"
+        android:text="PLAY"
         android:id="@+id/play"
         android:layout_weight="0.36"
         android:layout_gravity="left"
